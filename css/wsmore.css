@@ -7,6 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale; 
 }
 
+iframe {
+  /*border: 1px solid rgb(255, 255, 255);*/
+  position: absolute;
+  left: 60%;
+  bottom: 25%;
+  width: 35%; 
+  height: 50%;
+}
+
 .section{
 			text-align:center;
 			background-size: cover;
@@ -65,17 +74,21 @@ body {
     background-image: linear-gradient(-125deg,rgba(81, 45, 109, 0.8) 50%, rgba(42, 147, 222, 0.5));
     opacity: 1; }
   .testo .contenuto {
-    text-align: center;
-    width: 90%;
+    text-align: left;
+    width: 80%;
     margin: 0 auto;
-padding:100px 0;	}
+    padding:100px 0;	}
 @media (max-width:767px) {
 	.testo .contenuto {padding:50px 0;}
 }
     .testo .contenuto h1 {
       font-weight: 100;
-      font-size: 3.000em;
+      font-size: 2.500em;
       text-transform: uppercase; }
+      .testo .contenuto h2 {
+        font-weight: 100;
+        font-size: 2.000em;
+        text-transform: uppercase; }
     .testo .contenuto .subtitle {
       font-size: 1.618em;
       font-weight: 200; }
@@ -108,7 +121,7 @@ padding:100px 0;	}
       margin-top: 30px;
       visibility: hidden;
       font-size: 1em;
-      width: 60%;
+      /*width: 60%;*/
       margin: 0 auto;
       opacity: 0;
       height: 0;
